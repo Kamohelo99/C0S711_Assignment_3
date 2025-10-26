@@ -42,7 +42,3 @@ radio_source_pipeline/
 3. **Run the supervised training notebook**.  Open `notebooks/supervised_template.ipynb` in Jupyter or Google Colab.  Follow the instructions in each cell to load the data, implement the dataset parsing and model definition, and complete the training loop.  Save your model checkpoint (e.g. `resnet18_supervised.pth`) for use in the semi‑supervised phase.
 
 4. **Run the semi‑supervised training notebook**.  Open `notebooks/semi_supervised_template.ipynb`.  This notebook guides you through generating pseudo‑labels for unlabelled images and implementing a consistency‑based fine‑tuning loop.  You will need to adapt the pseudo‑labelling threshold and augmentation functions for your data.
-
-## Disclaimer
-
-The provided code is **incomplete** and intended for educational purposes.  It does not include a full implementation of the assignment and will not, by itself, produce a trained model.  You must fill in the missing pieces according to your needs and the assignment requirements.

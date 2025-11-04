@@ -1,0 +1,12 @@
+# Suggested dependencies for the radio source classification pipeline
+torch>=1.10
+torchvision>=0.11
+pandas>=1.3
+numpy>=1.21
+scikit-learn>=1.1
+Pillow>=8.0
+matplotlib>=3.4
+Jupyter>=1.0
+
+# You may need to adjust these versions to suit your environment.  If running on Colab,
+# many of these packages are preinstalled.
